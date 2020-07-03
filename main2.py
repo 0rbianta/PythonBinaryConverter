@@ -10,14 +10,14 @@ def clear():
     else: 
         _ = system('clear')
 clear()
-num=input("Please enter your number here:")
+num=input("Please enter your decimal here:")
 bin=0
 divisionControl=int(num)
 
 total= []
 ##Error handler
 if(int(num)<0):
-    print("This is not a positive number.\n")#Yes this is not a positive number but it can still convertable to duality number system so no destroys.
+    print("This is not a positive number.\n")#Yes this is not a positive number but it can still convertable to binary number system so no destroys.
 
 #Calculate
 for i in range(1,99):
@@ -30,7 +30,7 @@ for i in range(1,99):
 total.reverse()
 #Output
 clear()
-print("Your input number is ", num)
+print("Your input decimal is ", num)
 print("Your binary is")
 print("1",end="",sep="")
 for i in total:

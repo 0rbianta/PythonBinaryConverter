@@ -10,9 +10,9 @@ def clear():
         _ = system('clear')
 clear()
 
-print("Welcome to binary converter app. This app can convert a number to a binary or a binary to a number.")
+print("Welcome to binary converter app. This app can convert a decimal to a binary or a binary to a decimal.")
 print("What you will do?\n")
-print("{} {} {}".format("(1)Binary to number |", "(2)Number to binary |", "(3)Exit\n"))
+print("{} {} {}".format("(1)Binary to decimal |", "(2)decimal to binary |", "(3)Exit\n"))
 ValSelectionM=int(input("Please select a number for operation:\nUSER>>"))
 if(ValSelectionM==1):
     exec(open('main1.py').read())

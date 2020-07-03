@@ -34,7 +34,7 @@ for number in OUBinM:
     numplus+=1
 #Output
 clear()
-print("Your number is")
+print("Your decimal is")
 print(total)
 time.sleep(6)
 exec(open('BinCalculator.py').read())
