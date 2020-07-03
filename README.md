@@ -5,4 +5,5 @@ Convert a decimal to the binary or convert a binary to the decimal. Writing in p
 1)Run 'BinCalculator.py'<br>
 2)Select an operation for convertion<br>
 And that is all.
-
+<br>
+<img src="BinCalculator.png">
