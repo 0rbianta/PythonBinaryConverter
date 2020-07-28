@@ -24,7 +24,7 @@ else:
             exit()
         else:
             ##Error handler
-            if(ValSelectionM>2):
+            if(ValSelectionM>3):
                 print("Number not found. Please select a number from table.")
                 exec(open('BinCalculator.py').read())#Restart
             else:
